@@ -83,8 +83,8 @@ selectedColors[2] = 'green';
 console.log(selectedColors.length);
 
 function greet() {
-    console.log('Hello World');
+    console.log('Hello ' + name);
 }
-greet();
+greet('John');
 
 

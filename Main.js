@@ -69,6 +69,11 @@ let person = {
 };
 
 // Dot notation - person.name = 'John';
+// Dot notation - person.name = 'John';
+
+person['name'] = 'Mary';
+
+console.log(person.name);
 
 
 

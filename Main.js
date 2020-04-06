@@ -78,6 +78,10 @@ console.log(person.name);
 person['age'] = 30
 console.log(person.age);
 
+let selectedColors = ['red', 'blue'];
+
+console.log(selectedColors[0]);
+
 
 
 

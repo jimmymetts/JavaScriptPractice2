@@ -82,6 +82,9 @@ let selectedColors = ['red', 'blue'];
 selectedColors[2] = 'green';
 console.log(selectedColors.length);
 
-
+function greet() {
+    console.log('Hello World');
+}
+greet();
 
 

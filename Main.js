@@ -75,7 +75,7 @@ person['name'] = 'Mary';
 
 console.log(person.name);
 
-person['age'] = 3
+person['age'] = 30
 console.log(person.age);
 
 

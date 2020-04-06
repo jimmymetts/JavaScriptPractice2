@@ -79,8 +79,8 @@ person['age'] = 30
 console.log(person.age);
 
 let selectedColors = ['red', 'blue'];
-
-console.log(selectedColors[0]);
+selectedColors[2] = 'green';
+console.log(selectedColors);
 
 
 

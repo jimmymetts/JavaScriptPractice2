@@ -86,5 +86,7 @@ function greet() {
     console.log('Hello ' + name);
 }
 greet('John');
+greet('Mary'); 
+greet('Hunter');
 
 

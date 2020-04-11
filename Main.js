@@ -103,7 +103,7 @@ const book1 = {
 const book2 = {
     title: 'Book 1',
     author: 'Jane Doe',
-    year: '2013',
+    year: '2016',
     getSummary: function() {
         return `${this.title} was written by ${this.author} in ${this.year}`;  // uses Template literals to write sentence
     }

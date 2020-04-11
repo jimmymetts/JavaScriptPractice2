@@ -96,4 +96,4 @@ const book1 = {
     author: 'John Doe',
     year: '2013',
 };
-console.log(book1.author);
+console.log(book1.year);

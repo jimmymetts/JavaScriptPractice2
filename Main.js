@@ -89,4 +89,11 @@ greet('John');
 greet('Mary'); 
 greet('Hunter');
 
+// Traversy
 
+const book1 = {
+    title: 'Book 1',
+    author: 'John Doe',
+    year: '2013',
+};
+console.log(book1);

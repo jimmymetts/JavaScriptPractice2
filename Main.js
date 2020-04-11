@@ -108,4 +108,4 @@ const book2 = {
         return `${this.title} was written by ${this.author} in ${this.year}`;  // uses Template literals to write sentence
     }
 };
-console.log(book1.getSummary());
+console.log(book2.getSummary());

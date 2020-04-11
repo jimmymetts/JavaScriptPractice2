@@ -101,7 +101,7 @@ const book1 = {
 };
 
 const book2 = {
-    title: 'Book 1',
+    title: 'Book 2',
     author: 'Jane Doe',
     year: '2016',
     getSummary: function() {

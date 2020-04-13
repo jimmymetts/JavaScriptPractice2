@@ -1,5 +1,12 @@
 // reverse string test
 
+function Book(title, author, year) {
+    this.title = title;
+    this.author = author;
+    this.year = year;
+    
+    }
+
 Book.prototype.revise = function(newAuthor) {
     this.Author = newAuthor;
     this.revise = true;

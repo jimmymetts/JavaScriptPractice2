@@ -109,3 +109,4 @@ const book2 = {
     }
 };
 console.log(Object.values(book2));
+console.log(Object.keys(book2));

@@ -9,6 +9,11 @@ function Book(title, author, year) {
         return `${this.title} was written by ${this.author} in ${this.year}`;  // uses Template literals to write sentence
     }
     
+    //getSummary
+
+    Book.prototype.getSummary = function () {
+        return `${this.title} was written by ${this.author} in ${this.year}`;  
+    }
 
 };
 

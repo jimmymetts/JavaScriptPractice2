@@ -1,4 +1,5 @@
-// constructors
+// prototypes
+
 function Book(title, author, year) {
     this.title = title;
     this.author = author;

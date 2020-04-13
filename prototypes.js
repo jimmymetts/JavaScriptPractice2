@@ -16,8 +16,8 @@ function Book(title, author, year) {
     // getAge
 
     Book.prototype.getAge = function () {
-        const years = new Date().getFullYear - this.year;
-        return `${this.title} is ${years} old`
+        const years = new Date().getFullYear() - this.year;
+        return `${book2.title} is ${years} years old`
     }
 
 
@@ -27,4 +27,4 @@ function Book(title, author, year) {
 const book1 = new Book('Book 1', 'John Doe', '2013');
 const book2 = new Book('Book 2', 'Jane Doe', '2016');
 
-console.log(book2);
+console.log(book2.getAge());

@@ -1,6 +1,6 @@
 // constructors
 function Book(title, author, year) {
-    console.log('Book initialized');
+    this.title = title;
 
 };
 

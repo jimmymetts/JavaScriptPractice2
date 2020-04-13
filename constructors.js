@@ -1,4 +1,7 @@
 // constructors
-function book() {
-    
-}
+function Book() {
+    console.log('Book initialized');
+
+};
+
+const book = new Book();

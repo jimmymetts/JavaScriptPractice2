@@ -1,5 +1,5 @@
 // constructors
-function Book() {
+function Book(title, author, year) {
     console.log('Book initialized');
 
 };

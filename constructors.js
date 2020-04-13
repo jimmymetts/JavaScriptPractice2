@@ -4,4 +4,7 @@ function Book() {
 
 };
 
-const book = new Book();
+// Instantiate an Object
+
+const book1 = new Book();
+const book2 = new Book();

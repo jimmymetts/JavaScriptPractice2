@@ -18,3 +18,8 @@ function Book(title, author, year) {
         this.month = month;
     }
 
+// Instantiate Magazine Object
+
+const mag1 = new Magazine('Mag One', 'John Doe', '2018', 'January');
+
+console.log(mag1);

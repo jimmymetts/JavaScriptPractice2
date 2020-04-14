@@ -8,7 +8,13 @@ function Book(title, author, year) {
 //getSummary
     Book.prototype.getSummary = function() {
         return `${this.title} was written by ${this.author} in ${this.year}`;  // uses Template literals to write sentence
-    }
-    
+    };
 
-};
+    //magazine constructor
+
+    function Magazine(title, author, year, month) {
+        Book.call(this, title, author, month);
+
+        this.month = month;
+    }
+

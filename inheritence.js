@@ -21,5 +21,5 @@ function Book(title, author, year) {
 // Instantiate Magazine Object
 
 const mag1 = new Magazine('Mag One', 'John Doe', '2018', 'January');
-const mag2
+const mag2 = new Magazine2
 console.log(mag1);

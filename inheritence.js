@@ -22,5 +22,5 @@ function Book(title, author, year) {
 
 const mag1 = new Magazine('Mag One', 'John Doe', '2018', 'January');
 const mag2 = new Magazine('Mag Two', 'Jane Doe', '2020', 'March')
-const mag3 = new Magazine('Mag Three','Robert Clark', '2020')
+
 console.log(mag2);

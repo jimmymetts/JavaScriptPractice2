@@ -21,6 +21,6 @@ function Book(title, author, year) {
 // Instantiate Magazine Object
 
 const mag1 = new Magazine('Mag One', 'John Doe', '2018', 'January');
-const mag2 = new Magazine('Mag Two', 'Jane Doe', '2020', 'March')
+
 
 console.log(mag2);

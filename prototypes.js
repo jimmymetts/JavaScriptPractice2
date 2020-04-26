@@ -38,6 +38,7 @@ Book.prototype.revise = function(newAuthor) {
 
 const book1 = new Book('Book 1', 'John Doe', '2013');
 const book2 = new Book('Book 2', 'Jane Doe', '2016');
+const book5 = new Book('Book 5', 'Robert Clark', '1989');
 
 console.log(book2);
 book2.revise('enaj');
